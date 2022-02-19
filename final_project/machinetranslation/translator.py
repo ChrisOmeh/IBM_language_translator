@@ -33,7 +33,9 @@ def french_to_english(french_text):
         model_id= 'fr-en').get_result()
     return english_text['translations'][0]['translation']
 
-english_to_french_result = english_to_french(["Hello! How are you madam?"])
-french_to_english_result = french_to_english(["Bonjour"])
-print("Enlish to French:", english_to_french_result)
-print("French to English:", french_to_english_result)
+#UNCOMMENT BELOW CODES TO TEST translator.py
+
+# english_to_french_result = english_to_french(["Hello! How are you madam?"])
+# french_to_english_result = french_to_english(["Bonjour"])
+# print("Enlish to French:", english_to_french_result)
+# print("French to English:", french_to_english_result)
